@@ -1,17 +1,16 @@
-import React from 'react';
+import React from "react";
 
 $(function () {
-  $(window).on('scroll', function () {
-      if ( $(window).scrollTop() > 10 ) {
-          $('.navbar').addClass('active');
-      } else {
-          $('.navbar').removeClass('active');
-      }
+  $(window).on("scroll", function () {
+    if ($(window).scrollTop() > 10) {
+      $(".navbar").addClass("active");
+    } else {
+      $(".navbar").removeClass("active");
+    }
   });
 });
 
-
-const Home=()=> {
+const Home = () => {
   return (
     <>
       <header className="header">
@@ -452,28 +451,25 @@ const Home=()=> {
             </div>
           </div>
         </div>
-        <footer className="footer_area section_padding_130_0">
-          <div className="container">
-            <div className="row">
-              <div className="col-12 col-sm-6 col-lg-4">
-                <div className="single-footer-widget section_padding_0_130">
-                  <div className="footer-logo mb-3"></div>
+        <footer class="footer_area section_padding_130_0">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-sm-6 col-lg-4">
+                <div class="single-footer-widget section_padding_0_130">
+                  <div class="footer-logo mb-3"></div>
                   <p>
-                    Appland is completely creative, lightweight, clean app
-                    landing page.
+                    The Blog is a Pop Sociology Blog that Puts a Spotlight on
+                    Common Sociological Topics That Readers Can Relate to.
                   </p>
-                  <div className="copywrite-text mb-5">
-                    <p className="mb-0">
-                      Made with <i className="lni-heart mr-1"></i>by
-                      <a
-                        className="ml-1"
-                        href="https://wrapbootstrap.com/user/DesigningWorld"
-                      >
-                        Designing World
+                  <div class="copywrite-text mb-5">
+                    <p class="mb-0">
+                      Made with <i class="lni-heart mr-1"></i>by
+                      <a class="ml-1" href="https://github.com/adamhopkins1">
+                        The Blog
                       </a>
                     </p>
                   </div>
-                  <div className="footer_social_area">
+                  <div class="footer_social_area">
                     <a
                       href="#"
                       data-toggle="tooltip"
@@ -481,7 +477,7 @@ const Home=()=> {
                       title=""
                       data-original-title="Facebook"
                     >
-                      <i className="fa fa-facebook"></i>
+                      <i class="fa fa-facebook"></i>
                     </a>
                     <a
                       href="#"
@@ -490,57 +486,57 @@ const Home=()=> {
                       title=""
                       data-original-title="Pinterest"
                     >
-                      <i className="fa fa-pinterest"></i>
+                      <i class="fa fa-pinterest"></i>
                     </a>
                     <a
                       href="#"
                       data-toggle="tooltip"
                       data-placement="top"
                       title=""
-                      data-original-title="Skype"
+                      data-original-title="Youtube"
                     >
-                      <i className="fa fa-skype"></i>
+                      <i class="fa fa-youtube"></i>
                     </a>
                     <a
                       href="#"
                       data-toggle="tooltip"
                       data-placement="top"
                       title=""
-                      data-original-title="Twitter"
+                      data-original-title="Instagram"
                     >
-                      <i className="fa fa-twitter"></i>
+                      <i class="fa fa-instagram" aria-hidden="true"></i>
                     </a>
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-sm-6 col-lg">
-                <div className="single-footer-widget section_padding_0_130">
-                  <h5 className="widget-title">About</h5>
-                  <div className="footer_menu">
+              <div class="col-12 col-sm-6 col-lg">
+                <div class="single-footer-widget section_padding_0_130">
+                  <h5 class="widget-title">Home</h5>
+                  <div class="footer_menu">
                     <ul>
                       <li>
-                        <a href="#">About Us</a>
+                        <a href="#">Blog</a>
                       </li>
                       <li>
-                        <a href="#">Corporate Sale</a>
+                        <a href="#">About</a>
                       </li>
                       <li>
-                        <a href="#">Terms &amp; Policy</a>
+                        <a href="#">FAQ &amp; Policy</a>
                       </li>
                       <li>
-                        <a href="#">Community</a>
+                        <a href="#">Resources</a>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-sm-6 col-lg">
-                <div className="single-footer-widget section_padding_0_130">
-                  <h5 className="widget-title">Support</h5>
-                  <div className="footer_menu">
+              <div class="col-12 col-sm-6 col-lg">
+                <div class="single-footer-widget section_padding_0_130">
+                  <h5 class="widget-title">Location</h5>
+                  <div class="footer_menu">
                     <ul>
                       <li>
-                        <a href="#">Help</a>
+                        <a href="#">Legal</a>
                       </li>
                       <li>
                         <a href="#">Support</a>
@@ -549,31 +545,31 @@ const Home=()=> {
                         <a href="#">Privacy Policy</a>
                       </li>
                       <li>
-                        <a href="#">Term &amp; Conditions</a>
+                        <a href="#">Term &amp; Data Usage</a>
                       </li>
                       <li>
-                        <a href="#">Help &amp; Support</a>
+                        <a href="#">Contribute & Get Paid</a>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-sm-6 col-lg">
-                <div className="single-footer-widget section_padding_0_130">
-                  <h5 className="widget-title">Contact</h5>
-                  <div className="footer_menu">
+              <div class="col-12 col-sm-6 col-lg">
+                <div class="single-footer-widget section_padding_0_130">
+                  <h5 class="widget-title">Contact</h5>
+                  <div class="footer_menu">
                     <ul>
                       <li>
-                        <a href="#">Call Centre</a>
+                        <a href="#">Email</a>
                       </li>
                       <li>
-                        <a href="#">Email Us</a>
+                        <a href="#">Mailing Address</a>
                       </li>
                       <li>
-                        <a href="#">Term &amp; Conditions</a>
+                        <a href="#">Phone Number</a>
                       </li>
                       <li>
-                        <a href="#">Help Center</a>
+                        <a href="#">Blog Submission</a>
                       </li>
                     </ul>
                   </div>
@@ -585,6 +581,6 @@ const Home=()=> {
       </div>
     </>
   );
-              };
+};
 
-              export default Home;
+export default Home;
