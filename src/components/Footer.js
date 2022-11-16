@@ -2,6 +2,7 @@ import React from 'react';
 
 const Footer = () =>{
     return(
+        <>
         <footer class="footer_area section_padding_130_0">
         <div class="container">
           <div class="row">
@@ -57,7 +58,8 @@ const Footer = () =>{
             </div>
           </div>
         </div>
-      </footer>   
+      </footer> 
+      </>  
     )
     
 }
