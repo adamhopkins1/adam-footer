@@ -324,3 +324,19 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+/* Blogroll CSS */
+
+article {
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #ccc;
+}
+
+.social a {
+  padding: 0 0.5em;
+}
+
+.page-header {
+  margin-bottom: 2rem;
+}
